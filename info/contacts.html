@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style_contacts.css">
              <!-- Google tag (gtag.js) -->
         <script
       async
@@ -69,17 +69,17 @@
     <a class="link_styles" href="https://lesovba.github.io/catalogue/catalogue.html">Каталог</a>
     <a href="#">Контакты</a>    
     <h1 class="main_header">Feedback form</h1>
-    <form action="post">
-        <p class="default_txt">
-        <label>Name: <input type="text" name="firstname"/>
+    <form class="contacts_form" action="get" onsubmit="ym(97670770, 'reachGoal', 'form_submit'); return true;">
+        <p class="name_input">
+        <label>Name: <input class="form_text" name="firstname"/>
         </label>
         </p>
-        <p class="default_txt">
-            <label> E-mail: <input type="email"/> </label>
+        <p class="email_input">
+            <label> E-mail: <input class="form_email"/> </label>
         </p>
-        <p class="default_txt">
-            <label> Your Question: <input type="text" width="300" height="200"/></label>
-            <button type="submit">Submit</button>
+        <p class="question_input">
+            <label> Your Question: <input class="question_text" width="300" height="200"/></label>
+            <button class="submit_button" type="submit">Submit</button>
         </p>
     </form>
 

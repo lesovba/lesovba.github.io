@@ -1,0 +1,31 @@
+.main_header {
+    color: blue;
+    text-decoration-line: underline;
+}
+
+.name_input, .email_input, .question_input {
+    color: blue;
+    text-decoration-line: underline;
+    font-size: 16px;
+
+}
+
+.form_text {
+    margin-left: 100px;
+
+}
+
+
+.form_email {
+margin-left: 95px;
+}
+
+
+.question_text {
+    margin-left: 45px;
+
+}
+
+.submit_button {
+    margin-left: 20px;
+}
